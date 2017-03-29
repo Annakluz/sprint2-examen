@@ -8,27 +8,14 @@
     <header>
         <h1>TRELLO</h1>
     </header>
-        <div>
-            <h2>PENDIENTES DE LA SEMANA</h2>
-            <ul>
-            </ul>
-            <label>Agregar Pendiente</label>
-            <input type="tex">
-            <input type="button" value="Crear pendiente">
-        </div>
-        <hr>
-        <div>
-            <h2>PENDIENTES DE LA OTRA SEMANA</h2>
-            <ul>
-            </ul>
-            <input type="text">
-            <input type="button" value="Crear Pendiente">
+        <div id="cajaListas"> <!--He borrado casi toda la estructura puesto que todo se va creando a partir de un DIV -->
+         
         </div>
         <hr>
         
         <label>Agregar Lista</label>
-        <input type="text">
-        <input type="button" value="Crear Lista">
+        <input type="text" id="nombreLista">
+        <input type="button" value="Crear Lista" onclick="agregarLista">
     <script src="trello.js"></script>
 </body>
 </html>
