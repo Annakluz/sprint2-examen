@@ -19,3 +19,8 @@ He conseguido poner los botones despues de cada tarea pero aun no se como es que
 He ocupado SetAttribute para los botones, aun no se como llegare a que se ejecute la funcion de agregar elementos. Estoy tratando de encontrar la manera en que pueda dar "onclick".
 Creo que la funcion debe ir anindada pues no se puede acceder a ella sino hasta que se crea una tarea.
 Se hizo una funcion anidada donde se crearon los pendientes de las listas de tareas, falta darle formatoa esa parte or medio de CSS o atributos de style . 
+
+PSEUDOCODIGO BORRAR ELEMENTOS:
+
+
+** Solo faltan 8 minutos, asi que como comentario adicional quisiera decir que aunque tal vez no llegue a las repuestas mas idoneas y concretas me siento muy feliz por que llegue hasta este punto sola y pense que sabia menos de codigo. Tambien se que si tuviera mucho mas tiempo lento pero seguro encontraria mas respuestas  Gracias**
