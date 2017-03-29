@@ -1,15 +1,11 @@
 function agregarLista(){
-    var nuevoEspacio = document.createElement("div"); // Div donde estara la lista
-    var nuevaLista = document.createElement("ul"); // Dentro se cre una lista
-    var nombreLista = document.getElementById("nombreLista") // nombre de la lista
+    var nombreLista = document.getElementById("nombreLista")
+    var division = document.createElement("div");
+    division.id = Date.now();
+    document.getElementsByTagName("section")[0].appendChild(division);
+    var nodo = document.createElement("ul");
+    nodo.id = Date.now();
+    division.appendChild(nodo);
+    nodo.innerHTML = nombreLista.value;
     
-    nuevoEspacio.appendChild(nuevaLista) //nueva lista sera hijo de nuevo espacio
-    var espacioDeListas = document.getElementById("cajaListas"); //aqui estaran los div y la ul
-  
-    nuevaLista.innerHTML = nombreLista.value;
-    document.body.insertBefore(nuevoEspacio, espacioDeListas)
-    
-}
-function agregarItem(){
-    var 
 }
