@@ -16,3 +16,5 @@ PSEODOCODIGO AGREGAR PENDIENTE:
 3. Darle a la acción "onclick" del boton "agregar item()"
 
 He conseguido poner los botones despues de cada tarea pero aun no se como es que los llamare en la siguiente funcion, o si tendre que hacer una funcion anidada. 
+He ocupado SetAttribute para los botones, aun no se como llegare a que se ejecute la funcion de agregar elementos. Estoy tratando de encontrar la manera en que pueda dar "onclick".
+Creo que la funcion debe ir anindada pues no se puede acceder a ella sino hasta que se crea una tarea.
