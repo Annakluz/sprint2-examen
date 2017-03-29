@@ -1,0 +1,23 @@
+*{
+    margin : 0 px;
+    padding : 0 px;
+}
+
+body {
+    text-align: center;
+    background-color: #5784BD ;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+}
+
+section {
+    font-family: 'Catamaran', sans-serif;
+}
+input {
+    font-family: 'Catamaran', sans-serif;
+}
+label {
+    font-family: 'Catamaran', sans-serif;
+}

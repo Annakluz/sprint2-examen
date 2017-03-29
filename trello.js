@@ -14,11 +14,12 @@ function agregarLista(){
     var agregarPendiente = document.createElement("input");
     agregarPendiente.setAttribute("type","button");
     agregarPendiente.setAttribute("value","Agregar Pendiente");
-    agregarPendiente.setAttribute("class","boton");
+    agregarPendiente.setAttribute("class","boton"); 
     agregarPendiente.id = Date.now();
     division.appendChild(agregarPendiente);
-
-    function agregarPendientes(){
-        
+    
+    agregarPendientes.onclick = function(){
+                                    
     }
+
 }
