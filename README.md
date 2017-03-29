@@ -15,3 +15,4 @@ PSEODOCODIGO AGREGAR PENDIENTE:
 2. Crear elementos a la lista (appenchild) 
 3. Darle a la acción "onclick" del boton "agregar item()"
 
+He conseguido poner los botones despues de cada tarea pero aun no se como es que los llamare en la siguiente funcion, o si tendre que hacer una funcion anidada. 

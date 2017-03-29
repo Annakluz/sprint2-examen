@@ -7,5 +7,13 @@ function agregarLista(){
     nodo.id = Date.now();
     division.appendChild(nodo);
     nodo.innerHTML = nombreLista.value;
+    var nombrePendiente = document.createElement("input");
+    nombrePendiente.setAttribute("type","text");
+    nombrePendiente.id = Date.now();
+    division.appendChild(nombrePendiente);
+    var agregarPendiente = document.createElement("input");
+    agregarPendiente.setAttribute("type","button");
+    agregarPendiente.id = Date.now();
+    division.appendChild(agregarPendiente);
     
 }
