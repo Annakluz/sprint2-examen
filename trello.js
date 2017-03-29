@@ -3,10 +3,10 @@ function agregarLista(){
     var division = document.createElement("div");
     division.id = Date.now();
     document.getElementsByTagName("section")[0].appendChild(division);
-    var nodo = document.createElement("ul");
-    nodo.id = Date.now();
-    division.appendChild(nodo);
-    nodo.innerHTML = nombreLista.value;
+    var ul = document.createElement("ul");
+    ul.id = Date.now();
+    division.appendChild(ul);
+    ul.innerHTML = nombreLista.value;
     var nombrePendiente = document.createElement("input");
     nombrePendiente.setAttribute("type","text");
     nombrePendiente.id = Date.now();
@@ -18,8 +18,12 @@ function agregarLista(){
     agregarPendiente.id = Date.now();
     division.appendChild(agregarPendiente);
     
-    agregarPendientes.onclick = function(){
-                                    
+    agregarPendiente.onclick = function(){ //hasta este punto todo funciona; reconoce la funcion
+                            var li= document.createElement("li");
+                            li.id = Date.now();
+                            ul.appendChild(li);
+                            li.innerHTML=nombrePendiente.value;
+                         
     }
 
 }
