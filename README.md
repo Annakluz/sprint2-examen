@@ -21,7 +21,13 @@ Creo que la funcion debe ir anindada pues no se puede acceder a ella sino hasta 
 Se hizo una funcion anidada donde se crearon los pendientes de las listas de tareas, falta darle formatoa esa parte or medio de CSS o atributos de style . Pd ya se pueden poner las tareas dentro de las listas. 
 
 PSEUDOCODIGO BORRAR ELEMENTOS:
-1. removeChild
+1. Eliminar un pendiente o una lista 
+2. Eliminar por medio del ID
+3. Poner un boton que se cree junto con cada uno de los pendientes. 
+3. Utilizar removeChild
+4. Esta funcion debe estar fuera debido a que debe afectar tanto a agregar funcion como agregar pendiente.
+
+Se realizo la funcion que afecta las listas y se concateno con un boton creado dentro del inner, no me ha gustado la forma en que el boton se ha creado, creo que debe haber otra forma de crear ese boton. 
 
 
 ** Solo faltan 8 minutos, asi que como comentario adicional quisiera decir que aunque tal vez no llegue a las repuestas mas idoneas y concretas me siento muy feliz por que llegue hasta este punto sola y pense que sabia menos de codigo. Tambien se que si tuviera mucho mas tiempo lento pero seguro encontraria mas respuestas  Gracias**
